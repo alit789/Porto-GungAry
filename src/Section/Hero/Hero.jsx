@@ -5,7 +5,6 @@ import { Col, Container, Row } from "react-bootstrap";
 import Button from "../../Components/Button/Button";
 import ScrollReveal from "scrollreveal";
 
-
 const initializeScrollReveal = (selector, options) => {
   const sr = ScrollReveal();
   sr.reveal(selector, {
@@ -17,8 +16,6 @@ const initializeScrollReveal = (selector, options) => {
     ...options,
   });
 };
-
-
 
 const Hero = () => {
   useEffect(() => {
@@ -48,15 +45,21 @@ const Hero = () => {
               <h1 className="mt-4">I Gusti Agung Gede Ary Mahayasa</h1>
               <p className="mt-2 job">I am UI & UX Designer</p>
               <p>
-                Halo, perkenalkan nama saya I Gusti Agung Gede Ary Mahayasa, biasa dipanggil Gung Ary.
-                Saya merupakan seorang UIUX Designer dan saat ini saya mahasiswa semester 5 yang berkuliah di Universitas Udayana.
+                Halo, perkenalkan nama saya I Gusti Agung Gede Ary Mahayasa,
+                biasa dipanggil Gung Ary. Saya merupakan seorang UIUX Designer
+                dan saat ini saya mahasiswa semester 5 yang berkuliah di
+                Universitas Udayana.
               </p>
             </div>
             <div className="sosmed">
               <p>My Social Media :</p>
               <div className="sosmedWrap">
-                <Button style="kartun" desc="Instagram  " />
-                <Button style="kartun2" desc="Linkedin" />
+                <a href="https://www.instagram.com/ary_mahayasa/">
+                  <Button style="kartun" desc="Instagram  " />
+                </a>
+                <a href="https://www.linkedin.com/in/i-gusti-agung-gede-ary-mahayasa-bb52b4276/">
+                  <Button style="kartun2" desc="Linkedin" />
+                </a>
               </div>
             </div>
           </Col>
