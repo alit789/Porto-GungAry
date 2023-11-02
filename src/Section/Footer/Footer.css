@@ -1,0 +1,21 @@
+.footer p{
+  font-weight: 400;
+  color: var(--blackDesc);
+}
+.footer h5{
+  font-weight: 600;
+}
+#footer{
+  background-color: #f6f6f6;
+  padding-bottom: 40px;
+}
+#footerDescHima:hover{
+  color: unset !important;
+}
+#footer p:hover{
+  color: var(--blue);
+}
+a{
+  text-decoration: none;
+  color: #252525;
+}

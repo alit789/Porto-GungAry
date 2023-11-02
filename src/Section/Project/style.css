@@ -1,0 +1,96 @@
+.projectWrap {
+  padding: 20px 20px;
+}
+
+.wrapContentSatu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.wrapContentDua {
+  gap: 14px;
+  display: flex;
+}
+
+.ContentLeft,
+.ContentRight {
+  width: 100%;
+  padding: 10px;
+}
+
+.borderPrim {
+  border: 1px solid var(--primary);
+}
+h1,
+h2,
+h4 {
+  font-weight: 700;
+}
+p {
+  text-align: justify;
+}
+
+.titleJourney h2 {
+  font-weight: 700;
+}
+
+.titleJourney p {
+  text-align: justify;
+}
+
+.designWrap {
+  gap: 20px;
+  display: flex;
+}
+
+.high {
+  color: rgb(255, 58, 58);
+}
+.medium {
+  color: rgb(255, 187, 40);
+}
+
+.hide{
+  display: none;
+}
+
+.show{
+  display: block;
+}
+
+
+.kartun3 {
+  --bg: #000;
+  --hover-bg: #ff7de5;
+  --hover-text: #fff;
+  color: #fff;
+  border: 1px solid var(--bg);
+  border-radius: 4px;
+  padding: 10px 20px;
+  background: var(--bg);
+  transition: 0.2s;
+}
+
+.kartun3:hover {
+  --hover-text: #fff;
+  color: var(--hover-text);
+  transform: translate(-0.25rem, -0.25rem);
+  background: var(--primary);
+  box-shadow: 0.25rem 0.25rem var(--bg);
+}
+
+.kartu3:active {
+  transform: translate(0);
+  box-shadow: none;
+}
+
+@media screen and (max-width:768px) {
+  .projectTitle{
+    margin-top:50px ;
+  }
+  .wrapContentSatu{
+    margin-top: 30px;
+  }
+}

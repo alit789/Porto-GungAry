@@ -1,0 +1,14 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --primary:#7E7BBF;
+    --secondPrimary:#323144;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 0px;
+  }
+  

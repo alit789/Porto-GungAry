@@ -1,0 +1,58 @@
+#Hero {
+  height: 100vh;
+  background-image: url('../../assets/bg.png');
+  background-repeat: no-repeat;
+
+  & .job{
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  & .container{
+    padding-top: 100px;
+  }
+
+  & .wrapQuotes {
+    margin-top: 80px;
+    border: 1px solid var(--primary);
+    padding: 30px 20px;
+
+
+    & span {
+      font-weight: 800;
+        color: var(--primary);
+    }
+
+    & .quotes {
+      font-size: 60px;
+      font-weight: 600;
+    }
+  }
+
+  & .introWrap{
+
+    & h1{
+      font-weight: 700;
+      color: #373737;
+    }
+
+    & p{
+      color: #626262;
+      text-align: justify;
+    }
+  }
+
+
+  & .sosmedWrap{
+    display: flex;
+    gap: 10px;
+  }
+}
+
+
+@media screen and (max-width:992px) {
+  #Hero{
+    height: auto;
+    background-image: none;
+  }
+}
